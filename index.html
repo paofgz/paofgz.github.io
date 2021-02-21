@@ -1,33 +1,171 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pagina Web</title>
+        <title>Paola Fernandez CV</title>
+        <link rel="icon" type="image/png" href="imgs/logo.png" size="32x32">
         <link type="text/css" rel="stylesheet" href="main.css">
         <meta charset="utf-8">
     </head>
     <body>
-        <header>
-            <h1>Bienvenidos</h1>
-        </header>
-            <p>Esta es una página</p>
-            <div>Es mi primer página web</div>
-            <br>
+        <!--Título-->
+        <div class="about">
+            <div>
+                <img src="imgs/logo.png" alt="logo">
+            </div>
+            <div>
+                <h1>Paola Fernández</h1>
+                <p>Estudiante de ITC</p>
+            </div>
+        </div>
+        <hr>
+
+        <!--Contenido-->
+        <div class="content">
+            <!--Lenguajes-->
+            <h2>Lenguajes de Programación</h2>
+            <div class="lenguaje">
+                <p>C++</p>
+                <div class="progress">
+                    <div class="progress-value" style="width: 80%">80%</div>
+                </div>
+            </div>
+            <div class="lenguaje">
+                <p>HTML y CSS</p>
+                <div class="progress">
+                    <div class="progress-value" style="width: 70%">70%</div>
+                </div>
+            </div>
+            <div class="lenguaje">
+                <p>Matlab</p>
+                <div class="progress">
+                    <div class="progress-value" style="width: 60%">60%</div>
+                </div>
+            </div>
+            <div class="lenguaje">
+                <p>Python</p>
+                <div class="progress">
+                    <div class="progress-value" style="width: 55%">55%</div>
+                </div>
+            </div>
+            <div class="lenguaje">
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="progress-value" style="width: 35%">35%</div>
+                </div>
+            </div>
+
+            <!--Trabajos-->
+            <h2>Trabajos y proyectos</h2>
+            <div class="trabajos">
+                <div class="proyecto">
+                    <h3>Página de monitoreo de la calidad de aire en la Ciudad de México</h3>
+                    <h4>Semestre Ago-Dic 2020</h4>
+                    <p>Este trabajo consistió en la elaboración de una página web donde se mostraran los datos obtenidos de sensores de la Ciudad de México y otros simulados que obtenían la calidad del aire. Para realizarlo fue necesario crear un ambiente de sensores simulados en Packet Tracer y procesar la información de la simulación y la información de los sensores reales en Matlab, guardar esa información en una base de datos en un servidor remoto y mostrar dicha información en una página web.</p>
+                    <div class="fotos">
+                        <img src="imgs/pag1.png" alt="Pagina Web">
+                        <img src="imgs/pag2.png" alt="Packet Tracer">
+                        <img src="imgs/pag3.png" alt="Matlab">
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <h3>Detector de ciberataques</h3>
+                    <h4>Semestre Ago-Dic 2020</h4>
+                    <p>Este trabajo consistió en crear un programa en C++ que leyera un archivo de reporte de intentos de conexión a un servidor donde se especificaba la dirección IP que deseaba acceder al servidor, la dirección del servidor, la fecha y hora y la razón por la cuál no se pudo conectar. El programa debía leer dicha información y acomodarla para poder procesarla y detectar posibles ataques de bots si se rgistraba la misma dirección IP intentando entrar al mismo servidor múltiples veces al mismo tiempo. Para este trabajo implementamos hashing y otras herramientas que facilitaron su elaboración</p>
+                        <div class="fotos">
+                            <img src="imgs/program1.png" alt="Programa">
+                            <img src="imgs/program2.png" alt="Programa">
+                            <img src="imgs/register.png" alt="Registro">
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <h3>Página de FETEC</h3>
+                    <h4>Enero 2021</h4>
+                    <p>Junto con un equipo detrabajo, realizamos una página web para el grupo FETEC utilizando HTML, CSS y JavaScript. La página tiene una página principal donde se muestra la infromación prinicipal de FETEC, una página que muestra a los integrantes del grupo, una página donde se exponen los eventos que habrán y una página donde se muestran los comités. La página del calendario se conecta con una base de datos que cuenta con toda la información la cual se recolecta a través de un Google Forms</p>
+                        <div class="fotos">
+                        <img src="imgs/principal.png" alt="Pagina Web">
+                        <img src="imgs/calendario.png" alt="Packet Tracer">
+                        <img src="imgs/comites.png" alt="Matlab">
+                    </div>
+                </div>
+            </div>
+
+            <!--Hobbies-->
+            <h2>Mis hobbies</h2>
             <table>
                 <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Semester</th>
+                    <td><img src="imgs/ex.jpg" alt="ejercicio"></td>
+                    <td>
+                        <h3>Ejercicio y vida saludable</h3>
+                        <p>Me esfuerzo por realizar algún tipo de actividad física diariamente, normalmente hago ejercicios de fuerza y resistencia con pesas y peso corporal. También me esfuerzo por llevar una dieta balanceada y saludable y por cuidar mi salud mental y emocional.</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Paola</td>
-                    <td>20</td>
-                    <td>4th</td>
+                    <td><img src="imgs/drums.jpeg" alt="batería"></td>
+                    <td>
+                        <h3>Tocar la batería</h3>
+                        <p>Aprendí a tocar la batería cuando tenía 9 años, dejé de ir a clases cuando tenía 12, sin embargo aún practico por mi cuenta en mi tiempo libre y es una actividad que disfruto mucho pues me relaja y también me sirve para expresarme.</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Santiago</td>
-                    <td>22</td>
-                    <td>6th</td>
+                    <td><img src="imgs/fut.jpeg" alt="futbol"></td>
+                    <td>
+                        <h3>Fútbol</h3>
+                        <p>Siempre me ha gustado el fútbol, disfruto jugarlo y verlo. He estado en varios equipos donde usualmente juego de defenza lateral o de volante. Le voy a los Pumas y al Real Madrid y sigo mucho la liga femenil, tanto mexicana como estadounidense.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="imgs/book.jpg" alt="libro"></td>
+                    <td>
+                        <h3>Leer</h3>
+                        <p>Disfruto mucho leer en mi tiempo libre, me ayuda a desconectarme un tiempo de mi trabajo y considero que es una gran manera de trabajar la imaginación y aprender nuevas cosas.</p>
+                    </td>
                 </tr>
             </table>
+
+            <!--Gustos-->
+            <h2>Mis gustos</h2>
+            <div class="gustos">
+                <div class="cuadro">
+                    <h3 class="tipo">Series</h3>
+                    <ul>
+                        <li>The Queen's Gambit</li>
+                        <li>Atypical</li>
+                        <li>Grey's Anatomy</li>
+                        <li>The Wilds</li>
+                    </ul>
+                </div>
+                <div class="cuadro">
+                    <h3 class="tipo">Películas</h3>
+                    <ul>
+                        <li>Harry Potter</li>
+                        <li>Inception</li>
+                        <li>La bella y la bestia</li>
+                    </ul>
+                </div>
+                <div class="cuadro">
+                    <h3 class="tipo">Libros</h3>
+                    <ul>
+                        <li>Harry Potter</li>
+                        <li>1984</li>
+                        <li>Grit: the power of passion and perseverance</li>
+                    </ul>
+                </div>
+                <div class="cuadro">
+                    <h3 class="tipo">Videojuegos</h3>
+                    <ul>
+                        <li>The Last of Us</li>
+                        <li>The Last of Us part II</li>
+                        <li>Spider-Man</li>
+                        <li>Detroit Become Human</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+
+            <!--GitHub-->
+            <div class="contacto">
+                <a href="https://github.com/paofgz" target="_blank" class="link"><img class="icono" src="imgs/git.png" alt="github"></a>
+            </div>
+        </div>
     </body>
 </html>
