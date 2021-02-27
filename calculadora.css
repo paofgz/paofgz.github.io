@@ -1,0 +1,108 @@
+/*
+Background: linear-gradient(#141e30, #243b55);
+shadow: rgba(0,0,0,.6);
+text: #fff;
+azul chillante: #03e9f4;
+*/
+
+body {
+  font-family: sans-serif;
+  background: #CDE5EB;
+}
+
+.cuadro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: #A9A9A9;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.cuadro h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.cuadro .input {
+  position: relative;
+}
+
+.cuadro .input input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.cuadro .input label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+.cuadro .input label i {
+    font-size: 60%;
+}
+
+.cuadro .input input:focus ~ label,
+.cuadro .input input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ff3b3f;
+  font-size: 13px;
+}
+
+.cuadro form button {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  color: #ff3b3f;
+  font-size: 16px;
+  font-weight: 550;
+  text-transform: uppercase;
+  transition: .5s;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #A9A9A9;
+}
+
+.cuadro button:hover {
+  background: #ff3b3f;
+  color: #fff;
+  border-color: #ff3b3f;
+}
+
+#resultado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+#clasif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
