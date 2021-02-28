@@ -74,6 +74,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-color: #A9A9A9;
+  cursor: pointer;
 }
 
 .cuadro button:hover {
